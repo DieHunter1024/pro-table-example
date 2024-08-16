@@ -143,6 +143,8 @@ export const ScorePoint: FC<ScorePointProps> = props => {
             className="hideRefresh"
             dataSource={value}
             editableFormRef={editableFormRef}
+            onChange={() => { }}
+            controlled
             onBlur={handleBlur}
             handleChange={handleChange}
           />

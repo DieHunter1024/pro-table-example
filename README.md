@@ -12,3 +12,5 @@ score-point.tsx 中的 ScorePointEditTable 就是拖拽组件
 onBlur 和 onDragSortEnd 表示编辑和拖拽结束后的回调
 
 ### CellEditorTable.tsx 文件是官方的表格内部编辑源码，修改了一些逻辑，如：onBlur 函数的触发，onCell 函数切片兼容，item 可覆盖内部数据（editable 可覆盖）
+
+## 在 score-point 组件中，取消原有的 onChange 事件并且加上 controlled 进行数据拦截，否则表格内部的数据流无法同步，会与拖拽冲突
