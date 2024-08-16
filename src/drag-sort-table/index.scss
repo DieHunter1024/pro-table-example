@@ -1,0 +1,10 @@
+.ant-table {
+    .drag-active {
+        background: rgba(0, 0, 0, 0.1);
+        transition: 'background' 0.5s ease-in-out;
+        -webkit-transition: 'background' 0.5s ease-in-out;
+        -moz-transition: 'background' 0.5s ease-in-out;
+        -ms-transition: 'background' 0.5s ease-in-out;
+        -o-transition: 'background' 0.5s ease-in-out;
+    }
+}
